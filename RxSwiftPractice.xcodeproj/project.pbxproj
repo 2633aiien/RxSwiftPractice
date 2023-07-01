@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		9F767D452A4E763200312CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D442A4E763200312CAD /* AppDelegate.swift */; };
 		9F767D472A4E763200312CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D462A4E763200312CAD /* SceneDelegate.swift */; };
-		9F767D492A4E763200312CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D482A4E763200312CAD /* ViewController.swift */; };
+		9F767D492A4E763200312CAD /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D482A4E763200312CAD /* UserListViewController.swift */; };
 		9F767D4C2A4E763200312CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F767D4A2A4E763200312CAD /* Main.storyboard */; };
 		9F767D4E2A4E763300312CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F767D4D2A4E763300312CAD /* Assets.xcassets */; };
 		9F767D512A4E763300312CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F767D4F2A4E763300312CAD /* LaunchScreen.storyboard */; };
+		9F767D592A4E77AB00312CAD /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D582A4E77AB00312CAD /* UserDetailViewController.swift */; };
+		9F767D5F2A4E7F3400312CAD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9F767D5E2A4E7F3400312CAD /* Alamofire */; };
+		9F767D622A4E7F4E00312CAD /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 9F767D612A4E7F4E00312CAD /* RxBlocking */; };
+		9F767D642A4E7F4E00312CAD /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 9F767D632A4E7F4E00312CAD /* RxCocoa */; };
+		9F767D662A4E7F4E00312CAD /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 9F767D652A4E7F4E00312CAD /* RxRelay */; };
+		9F767D682A4E7F4E00312CAD /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F767D672A4E7F4E00312CAD /* RxSwift */; };
+		9F767D6D2A4E81B800312CAD /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D6C2A4E81B800312CAD /* WebService.swift */; };
+		9F767D6F2A4E81FE00312CAD /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D6E2A4E81FE00312CAD /* UserList.swift */; };
+		9F767D712A4E82B200312CAD /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D702A4E82B200312CAD /* UserListViewModel.swift */; };
+		9F767D742A4E87CD00312CAD /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D732A4E87CD00312CAD /* UserListTableViewCell.swift */; };
+		9F767D762A4FF40300312CAD /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F767D752A4FF40300312CAD /* UserDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F767D412A4E763200312CAD /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F767D442A4E763200312CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F767D462A4E763200312CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F767D482A4E763200312CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F767D482A4E763200312CAD /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		9F767D4B2A4E763200312CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F767D4D2A4E763300312CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F767D502A4E763300312CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F767D522A4E763300312CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F767D582A4E77AB00312CAD /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		9F767D6C2A4E81B800312CAD /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		9F767D6E2A4E81FE00312CAD /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		9F767D702A4E82B200312CAD /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		9F767D732A4E87CD00312CAD /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		9F767D752A4FF40300312CAD /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F767D642A4E7F4E00312CAD /* RxCocoa in Frameworks */,
+				9F767D5F2A4E7F3400312CAD /* Alamofire in Frameworks */,
+				9F767D682A4E7F4E00312CAD /* RxSwift in Frameworks */,
+				9F767D662A4E7F4E00312CAD /* RxRelay in Frameworks */,
+				9F767D622A4E7F4E00312CAD /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,61 @@
 		9F767D432A4E763200312CAD /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				9F767D722A4E87AB00312CAD /* Cell */,
+				9F767D6B2A4E81A700312CAD /* Service */,
+				9F767D5C2A4E77D800312CAD /* ViewModel */,
+				9F767D5B2A4E77C600312CAD /* Model */,
+				9F767D5A2A4E77B900312CAD /* View */,
 				9F767D442A4E763200312CAD /* AppDelegate.swift */,
 				9F767D462A4E763200312CAD /* SceneDelegate.swift */,
-				9F767D482A4E763200312CAD /* ViewController.swift */,
 				9F767D4A2A4E763200312CAD /* Main.storyboard */,
 				9F767D4D2A4E763300312CAD /* Assets.xcassets */,
 				9F767D4F2A4E763300312CAD /* LaunchScreen.storyboard */,
 				9F767D522A4E763300312CAD /* Info.plist */,
 			);
 			path = RxSwiftPractice;
+			sourceTree = "<group>";
+		};
+		9F767D5A2A4E77B900312CAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F767D582A4E77AB00312CAD /* UserDetailViewController.swift */,
+				9F767D482A4E763200312CAD /* UserListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F767D5B2A4E77C600312CAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F767D6E2A4E81FE00312CAD /* UserList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F767D5C2A4E77D800312CAD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F767D702A4E82B200312CAD /* UserListViewModel.swift */,
+				9F767D752A4FF40300312CAD /* UserDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F767D6B2A4E81A700312CAD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9F767D6C2A4E81B800312CAD /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9F767D722A4E87AB00312CAD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9F767D732A4E87CD00312CAD /* UserListTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +151,13 @@
 			dependencies = (
 			);
 			name = RxSwiftPractice;
+			packageProductDependencies = (
+				9F767D5E2A4E7F3400312CAD /* Alamofire */,
+				9F767D612A4E7F4E00312CAD /* RxBlocking */,
+				9F767D632A4E7F4E00312CAD /* RxCocoa */,
+				9F767D652A4E7F4E00312CAD /* RxRelay */,
+				9F767D672A4E7F4E00312CAD /* RxSwift */,
+			);
 			productName = RxSwiftPractice;
 			productReference = 9F767D412A4E763200312CAD /* RxSwiftPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +186,10 @@
 				Base,
 			);
 			mainGroup = 9F767D382A4E763200312CAD;
+			packageReferences = (
+				9F767D5D2A4E7F3300312CAD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9F767D602A4E7F4E00312CAD /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 9F767D422A4E763200312CAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F767D492A4E763200312CAD /* ViewController.swift in Sources */,
+				9F767D762A4FF40300312CAD /* UserDetailViewModel.swift in Sources */,
+				9F767D492A4E763200312CAD /* UserListViewController.swift in Sources */,
 				9F767D452A4E763200312CAD /* AppDelegate.swift in Sources */,
+				9F767D712A4E82B200312CAD /* UserListViewModel.swift in Sources */,
+				9F767D592A4E77AB00312CAD /* UserDetailViewController.swift in Sources */,
+				9F767D742A4E87CD00312CAD /* UserListTableViewCell.swift in Sources */,
+				9F767D6D2A4E81B800312CAD /* WebService.swift in Sources */,
+				9F767D6F2A4E81FE00312CAD /* UserList.swift in Sources */,
 				9F767D472A4E763200312CAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9L6T99V452;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RxSwiftPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9L6T99V452;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RxSwiftPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -358,6 +445,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F767D5D2A4E7F3300312CAD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		9F767D602A4E7F4E00312CAD /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F767D5E2A4E7F3400312CAD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F767D5D2A4E7F3300312CAD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9F767D612A4E7F4E00312CAD /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F767D602A4E7F4E00312CAD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		9F767D632A4E7F4E00312CAD /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F767D602A4E7F4E00312CAD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		9F767D652A4E7F4E00312CAD /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F767D602A4E7F4E00312CAD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		9F767D672A4E7F4E00312CAD /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F767D602A4E7F4E00312CAD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F767D392A4E763200312CAD /* Project object */;
 }
